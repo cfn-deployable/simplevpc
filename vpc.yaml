@@ -1,0 +1,7 @@
+Description: This is an example VPC deployed via Qaz!
+
+Resources:
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: {{ .vpc.cidr }}

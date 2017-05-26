@@ -1,0 +1,17 @@
+
+# AWS Region
+region: eu-west-1
+
+# Project Name
+project: qaz-project
+
+# Global Stack Variables
+global:
+
+# Stacks
+stacks:
+  vpc:
+    source: vpc.yaml
+    cf:
+      cidr: 10.10.0.0/16
+
